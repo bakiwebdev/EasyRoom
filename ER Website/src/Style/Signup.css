@@ -1,0 +1,109 @@
+.SignupContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+.SignupIntro
+{
+    background-color: #2E4DE8;
+    padding: 5%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 35vw;
+    text-align: center;
+    justify-content: center;
+}
+.SignupIntro h1
+{
+    color: white;
+    padding-bottom: 10%;
+    border-bottom: 5px solid white;
+}
+
+.SignupIntro p
+{
+    color:  white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.SingupForm
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    height: 100vh;
+    flex: 70vw;
+}
+
+.SingupForm h2
+{
+    color: #2E4DE8;
+}
+
+.SingupForm p
+{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 4%;
+}
+
+form
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0% 5%;
+    justify-content: space-between;
+}
+
+label
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+label span
+{
+    padding-left: 5%;
+    color: #2E4DE8;
+    font-weight: bold;
+}
+
+input
+{
+    border: 1px solid #888888;
+    padding: 0% 5%;
+    border-radius: 20px;
+    height: 6vh;
+    /* box shadow */
+    box-shadow: 1px 2px 2px #888888;
+}
+
+select
+{
+    border: 1px solid #888888;
+    padding: 0% 10%;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 6vh;
+    /* box shadow */
+    box-shadow: 1px 2px 2px #888888;
+}
+
+input[type=submit]
+{
+    margin: 5% auto;
+    width: 80%;
+    background-color: #2E4DE8;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login
+{
+    font-weight: bold;
+    text-align: center;
+}

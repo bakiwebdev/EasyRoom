@@ -1,0 +1,45 @@
+.navigation
+{
+    border: solid 1px gray;
+    border-radius: 20px;
+    height: 12vh;
+
+    /* box shadow */
+    box-shadow: 1px 5px 15px #888888;
+}
+.navigation  .user
+{
+    padding: 0px;
+    padding-left: 3%;
+}
+.navigation  .userName
+{
+    float: right;
+    text-align: center;
+}
+.userName p
+{
+    padding-left: 5%;
+    margin: 0%;
+    font-weight: bold;
+}
+.navContaint
+{
+    justify-content: space-evenly
+}
+.search
+{
+    border-radius: 20px;
+    width: 40vw;
+}
+
+.link
+{
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1vw;
+    font-weight: bold;
+    border-bottom: 2px solid #2E4DE8;
+    margin: 0px 2%;
+}

@@ -1,0 +1,83 @@
+/* post container */
+.post
+{
+
+    border: solid 1px gray;
+    border-radius: 10px;
+    box-shadow: 1px 3px 5px #888888;
+    width: 90%;
+    height: auto;
+    margin: 3% auto;
+    padding: 1%;
+    
+}
+/* style for post header */
+.post > .postHeader
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: 80% 20%;
+    align-items: center;
+    border-bottom: 3px solid #2E4DE8;
+    
+}
+/* style for post owner */
+.postHeader > .postOwner
+{
+    display: flex;
+    flex: 60%;
+    margin: 2%;
+    padding: 1%;
+    align-items: center;
+}
+
+.postOwner > img
+{
+    width: 50px;
+    height: 50%;
+
+}
+/* style for post owner name */
+.postOwner > h3
+{
+    margin-left: 3%;
+    font-weight: bold;
+}
+/* style for post date and time */
+.postHeader > .postDateTime
+{
+    margin: 2%;
+    font-size: 20px;
+    font-style: italic;
+    justify-content: center;
+
+}
+/* style for main post body */
+.post > .postBody
+{
+    margin: 2%;
+}
+
+.postBody > h2
+{
+    text-align: left;
+    padding-left: 2%;
+}
+
+.postBody > p
+{
+    text-align: left;
+    padding-left: 2%;
+}
+/* style for post footer */
+.post > .postFooter
+{
+    background-color: #2E4DE8;
+    border-radius: 30px;
+}
+/* style for btn inside the post footer */
+.postFooter > .btn
+{
+    width: 100%;
+    color: white;
+}

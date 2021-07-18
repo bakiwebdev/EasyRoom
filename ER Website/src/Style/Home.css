@@ -1,0 +1,41 @@
+.main
+{
+    width: 95vw;
+    height: 95vh;
+    margin: auto;
+    margin-top: 2vh;
+    
+}
+.home
+{
+    margin-top: 3vh;
+    height: 80vh;
+    
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    /* box shadow */
+
+    text-align: center;
+}
+.leftSide
+{
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 5px 15px #888888;
+
+    padding: 10%;
+    
+}
+
+.middle
+{
+    margin: 0 3%;
+    overflow: scroll;
+}
+
+.rightSide
+{
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 5px 15px #888888;
+}

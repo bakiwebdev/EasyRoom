@@ -1,0 +1,55 @@
+.postForm
+{
+    height: 95%;
+    width: 95%;
+    margin: auto;
+    padding: 5%;
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px #888888; 
+}
+
+.postForm form
+{
+    text-align: start;
+}
+
+.postForm form .titleInput
+{
+    text-align: start;
+    width: 70%;
+}
+
+.postForm form .typeInput
+{
+    width: 20%;
+}
+
+.postForm form .subjectInput
+{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.subjectInput textarea
+{
+    border: 1px solid #888888;
+    padding: 3% 5%;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 1px 2px 2px #888888;
+}
+
+.postForm form button
+{
+    color: white;
+    font-size: 3vh;
+    font-weight: bold;
+    width: auto;
+    padding: 1% 5%;
+    margin: 2% 1%;
+    background-color: #2E4DE8;
+    box-shadow: 1px 2px 2px #888888;
+    border-radius: 20px;     
+}
+

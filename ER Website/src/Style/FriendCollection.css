@@ -1,0 +1,52 @@
+.FriendCollection
+{
+    height: 100%;
+}
+
+.FriendCollection .header
+{
+    height: 10%;
+    border-bottom: 5px solid #2E4DE8;
+}
+
+.FriendCollection .body
+{
+    height: auto;
+}
+
+.FriendCollection .body .followedFriend
+{
+    margin: 1%;
+    padding: 1% 5%;
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px #888888;
+}
+
+.followedFriend .name   
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.followedFriend .name h3
+{
+    margin-left: 2%;
+}
+
+.followedFriend .status
+{
+    margin: 2% 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.followedFriend .status button
+{
+    width: 45%;
+    background-color: #2E4DE8;
+    font-size: 3vh;
+    font-weight: bold;
+    color: white;
+}

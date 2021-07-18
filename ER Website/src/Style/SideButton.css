@@ -1,0 +1,26 @@
+.homeButton
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10%;
+    margin: 6%;
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 2px 3px #888888;
+    
+}
+
+.homeButton:hover
+{
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px #888888;
+}
+
+.homeButton > h2
+{
+    overflow: hidden;
+    justify-content: center;
+    margin-left: 5% 0%;
+}

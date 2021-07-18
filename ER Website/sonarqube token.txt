@@ -1,0 +1,7 @@
+sonarqube easyroom token v1
+
+b26f2e1e9ad97ad3a6eb836db466ab00e1bf88ab
+
+cmd to run test 
+
+sonar-scanner.bat -D"sonar.projectKey=EasyRoomWebsiteV2" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000" -D"sonar.login=b26f2e1e9ad97ad3a6eb836db466ab00e1bf88ab"

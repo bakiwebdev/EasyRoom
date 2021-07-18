@@ -1,0 +1,64 @@
+.mainChat
+{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.chatHeader
+{
+    display: flex;
+    flex: 10%;
+    border-bottom: 5px solid #2E4DE8;
+}
+
+.chatBody
+{
+    overflow: scroll;
+    flex: 80;
+}
+
+.chatBody .from
+{
+    margin: 1%;
+    height: auto;
+    border-radius: 12px;
+    width: 60%;
+    float: left;
+    color: white;
+    font-weight: bold;
+    background-color: #A0A2A8;
+}
+
+.chatBody .user
+{
+    margin: 1%;
+    height: auto;
+    border-radius: 12px;
+    width: 60%;
+    float: right;
+    color: white;
+    font-weight: bold;
+    background-color: #565372;
+}
+
+.chatFooter
+{
+    margin-top: 2%;
+    flex: 10%;
+}
+
+.chatFooter form
+{
+    display: flex;
+    flex-direction: row;
+}
+.chatFooter form input[type=text]
+{
+    width: 100%;
+}
+/* .chatFooter form input[type=submit]
+{
+    float: right;
+    width: 20%;
+} */
