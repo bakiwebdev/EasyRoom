@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>EasyRoomServiceTest</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Test</ProjectType>
+  <ProjectGuid>7155a393-d903-4d0b-8fcd-28e0aff85aca</ProjectGuid>
+  <FullPath>C:\EasyRoom\Backend repo\EasyRoom\EasyRoomServiceApi\EasyRoomServiceTest\EasyRoomServiceTest.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResults>
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\EasyRoom\Backend repo\EasyRoom\EasyRoomServiceApi\.sonarqube\conf\1\FilesToAnalyze.txt" />
+  </AnalysisResults>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\EasyRoom\Backend repo\EasyRoom\EasyRoomServiceApi\EasyRoomServiceTest\bin\Debug\net5.0\EasyRoomServiceTest.dll.RoslynCA.json|C:\EasyRoom\Backend repo\EasyRoom\EasyRoomServiceApi\EasyRoomServiceTest\bin\Debug\net5.0\EasyRoomServiceTest.dll.RoslynCA.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\EasyRoom\Backend repo\EasyRoom\EasyRoomServiceApi\.sonarqube\out\1</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net5.0</TargetFramework>
+</ProjectInfo>

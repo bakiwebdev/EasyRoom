@@ -1,0 +1,10 @@
+EasyRoomServiceApi_V1
+
+easyroomserviceapi_v1
+Token 
+e31f3a9b6f2088d85a37133fb838c3aa9df01390
+
+command in CLE
+dotnet sonarscanner begin /k:"EasyRoomServiceApi_V1" /d:sonar.host.url="http://localhost:9000"  /d:sonar.login="e31f3a9b6f2088d85a37133fb838c3aa9df01390"
+dotnet build
+dotnet sonarscanner end /d:sonar.login="e31f3a9b6f2088d85a37133fb838c3aa9df01390"
